@@ -1,5 +1,51 @@
 /* ////// TOPBAR  */
 .logo {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* //////// MAIN CAROUSEL */
+.carousel-item-div {
+  display: block;
+  position: relative;
+}
+.carousel-tagline1 {
+  position: absolute;
+  font-size: 6.5vw;
+  top: 20%;
+  left: 10%;
+  color: aliceblue;
+  animation: fly-left 3s ease-in-out;
+}
+.carousel-department {
+  position: absolute;
+  font-size: 6vw;
+  top: 35%;
+  left: 20%;
+  color: aliceblue;
+  animation: fly-right 3s ease-in-out;
+}
+@keyframes fly-left {
+  0% {
+    transform: translateX(150%);
   }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes fly-right {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
