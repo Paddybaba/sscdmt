@@ -24,7 +24,10 @@ const OurDoctors = () => {
   };
   return (
     <>
-      <div className="container-fluid gradient-1 gx-0" style={{backgroundColor:"#d6d6d6"}}>
+      <div
+        className="container-fluid gradient-1 gx-0"
+        style={{ backgroundColor: "#f2f2f2" }}
+      >
         <div className="row gx-0">
           <div className="col-10 mx-auto">
             <div className="text-center fs-1 text-uppercase my-4">

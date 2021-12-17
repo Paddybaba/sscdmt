@@ -15,8 +15,8 @@ const TopBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/opd">Book Appointment</Nav.Link>
-            <Nav.Link href="/admin">Admin</Nav.Link>
+            <Nav.Link href="/bookAppointment">Book Appointment</Nav.Link>
+            {/* <Nav.Link href="/admin">Admin</Nav.Link> */}
             <NavDropdown title="Our Doctors" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Dr Anup Padamwar

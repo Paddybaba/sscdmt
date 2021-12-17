@@ -12,7 +12,8 @@ const MainCarousel = () => {
       department: "Orthopaedics Department",
     },
     {
-      image: "https://live.staticflickr.com/65535/51587786049_143c045943_z.jpg",
+      image:
+        "https://paddy-photo-bucket.s3.ap-south-1.amazonaws.com/psychiatry.jpg",
       tagline: "You deserve better",
       department: "Department of Psychiatry",
     },

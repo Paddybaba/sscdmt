@@ -47,25 +47,25 @@ const Departments = () => {
     "https://live.staticflickr.com/65535/51618561854_34908cd414_z.jpg";
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
+      <div className="container-fluid gx-0">
+        <div className="row gx-0">
           <div className="col-10 mx-auto">
             <h2 className="text-center my-3 text-uppercase">Our Departments</h2>
           </div>
         </div>
-        <div className="row">
+        <div className="row gx-0">
           <div className="col-10 mx-auto">
             <div>
               <DeptComponent dept={ortho} />
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row gx-0">
           <div className="col-10 mx-auto">
             <DeptComponent dept={pedia} />
           </div>
         </div>
-        <div className="row">
+        <div className="row gx-0">
           <div className="col-10 mx-auto">
             <div>Psychiatry</div>
           </div>
