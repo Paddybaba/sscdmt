@@ -36,6 +36,9 @@ const contact = () => {
                     <h5>
                       Phone : <a href="tel:9343918036">9343918036</a>
                     </h5>
+                    <h5>
+                      Dr Anup : <a href="tel:9981547221">9981547221</a>
+                    </h5>
                     <h5>Website : www.shrisaiclinic.com</h5>
                     <h5>email : shrisaiclinic@gmail.com</h5>
                   </div>
